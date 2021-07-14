@@ -19,7 +19,7 @@ def index01(ruquest):
     result = {'first':'taehyeok', 'second':'im'}
     return render(request, 'index.html', context=result)
 
-def index01(ruquest):
+def index02(ruquest):
     request.GET['']
     result = {'first':request.GET['taehyeok'], 'second':request.GET['im']}
     return render(request, 'index.html', context=result)
